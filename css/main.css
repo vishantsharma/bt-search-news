@@ -124,7 +124,8 @@ textarea {
     flex: 1;
   }
   
-  .header {
+  .header,
+   footer {
     background-color: #5514b4;
     color: #fff;
     padding-top: 0.5rem;

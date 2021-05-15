@@ -9,13 +9,23 @@ function Header() {
     );
   }
 
+  function Footer() {
+    return (
+      <footer className="footer">
+        <div className="main-container">
+        <h1> BT React Code Test - by Vishant Sharma - 15/05/21 </h1>
+        </div>
+      </footer>
+    );
+  }
+
 function App() {
     return (
       <div className="app">
        <Header />
         <main>
-          <h1> BT React Code Test - by Vishant Sharma - 15/05/21 </h1>
         </main>
+        <Footer />
       </div>
     );
   }
