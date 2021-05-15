@@ -70,6 +70,74 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  html {
+    font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
+    color: #333;
+    box-sizing: border-box;
+  }
+
+  .main-container {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.75rem;
+    padding-left: clamp(0.75rem, 2vmin, 1.5rem);
+    padding-right: 0.75rem;
+    padding-right: clamp(0.75rem, 2vmin, 1.5rem);
+  }
+
+  .bt-logo {
+    width: 40px;
+    width: clamp(40px, 6vmin, 50px);
+    height: 40px;
+    height: clamp(40px, 6vmin, 50px);
+    margin-right: 1rem;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+    font-size: clamp(1.5rem, 5vmin, 2rem);
+    line-height: 1.25;
+  }
+  
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+  }
+
+  .app {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  main {
+    flex: 1;
+  }
+  
+  .header {
+    background-color: #5514b4;
+    color: #fff;
+    padding-top: 0.5rem;
+    padding-top: clamp(0.75rem, 2vmin, 1rem);
+    padding-bottom: 0.5rem;
+    padding-bottom: clamp(0.75rem, 2vmin, 1rem);
+  }
+  
+  .header .main-container {
+    display: flex;
+    align-items: center;
+  }
+   
 /* ==========================================================================
    Helper classes
    ========================================================================== */
