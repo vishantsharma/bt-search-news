@@ -138,6 +138,90 @@ textarea {
     display: flex;
     align-items: center;
   }
+
+.form-submit {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    margin-top: 3rem;
+    margin-top: clamp(2rem, 6vmin, 3.5rem);
+    margin-bottom: 3rem;
+    margin-bottom: clamp(2rem, 6vmin, 3.5rem);
+  }
+
+.form-input,
+.submit-btn {
+  padding: 0.5rem 1rem;
+  font-size: 1.15rem;
+  border: 1px solid #5514b4;
+  outline: none;
+}
+
+.form-input {
+  border-top-left-radius: 10rem;
+  border-bottom-left-radius: 10rem;
+  border-right: none;
+  flex: 1;
+  min-width: 0;
+  max-width: 300px;
+}
+
+.form-input:focus {
+  box-shadow: 0 1px 20px -5px #5514b4;
+}
+
+.submit-btn {
+  flex: 0;
+  border-top-right-radius: 10rem;
+  border-bottom-right-radius: 10rem;
+  background-color: #5514b4;
+  color: #fff;
+  cursor: pointer;
+}
+
+.search-results__status {
+  display: block;
+  text-align: center;
+  font-size: 1.15rem;
+  margin-bottom: 3rem;
+  margin-bottom: clamp(2rem, 6vmin, 3.5rem);
+}
+
+.results {
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+  gap: 3rem;
+  gap: clamp(2rem, 6vmin, 4rem);
+  margin-bottom: 3rem;
+  margin-bottom: clamp(2rem, 6vmin, 3.5rem);
+}
+
+.results-list {
+  display: block;
+}
+
+.results-list article {
+  display: grid;
+  gap: 0.8rem;
+}
+
+.results-list h2 {
+  font-size: 1.5rem;
+  font-size: clamp(1.25rem, 3vmin, 1.5rem);
+  line-height: 1.25;
+}
+
+.results-subheading {
+  color: #979;
+}
+
+.results-link {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  color: #5514b4;
+}
    
 /* ==========================================================================
    Helper classes
