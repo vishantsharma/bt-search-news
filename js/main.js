@@ -13,7 +13,7 @@ function Footer() {
     return (
         <footer className="footer">
             <div className="main-container">
-                <h1> BT React Code Test - by Vishant Sharma - 15/05/21 </h1>
+                <h1> BT React Code Test - by Vishant Sharma - 16/05/21 </h1>
             </div>
         </footer>
     );
